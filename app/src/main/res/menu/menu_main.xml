@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="beproject.homeautomationsystem.MainActivity">
+
+    <item
+        android:id="@+id/automode"
+        android:icon="@drawable/ic_action_switch"
+        app:showAsAction="always"
+        android:title="Auto Mode"/>
+
+    <item
+        android:id="@+id/changePassword"
+        app:showAsAction="ifRoom"
+        android:title="Change Password"/>
+</menu>
